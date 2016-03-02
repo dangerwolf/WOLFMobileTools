@@ -1,0 +1,56 @@
+PODS:
+  - Alamofire (3.2.1)
+  - BmobSDK (1.6.6)
+  - Bugtags (1.1.9)
+  - ChameleonFramework/Default (2.1.0)
+  - ChameleonFramework/Swift (2.1.0):
+    - ChameleonFramework/Default
+  - Charts (2.2.3):
+    - Charts/Core (= 2.2.3)
+  - Charts/Core (2.2.3)
+  - PDTSimpleCalendar (0.9.1)
+  - QRCodeReader.swift (5.3.1)
+  - Spring (1.0.3)
+  - SwiftOverlays (1.0)
+  - SwiftyJSON (2.3.2)
+  - TextFieldEffects (1.1.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - BmobSDK
+  - Bugtags
+  - ChameleonFramework/Swift
+  - Charts
+  - PDTSimpleCalendar
+  - QRCodeReader.swift
+  - Spring (from `https://github.com/MengTo/Spring.git`, branch `swift2`)
+  - SwiftOverlays
+  - SwiftyJSON
+  - TextFieldEffects
+
+EXTERNAL SOURCES:
+  Spring:
+    :branch: swift2
+    :git: https://github.com/MengTo/Spring.git
+
+CHECKOUT OPTIONS:
+  Spring:
+    :commit: 18d5c7b74489de8044e34767f856d1e574f0820e
+    :git: https://github.com/MengTo/Spring.git
+
+SPEC CHECKSUMS:
+  Alamofire: f11d8624a05f5d39e0c99309b3e600a3ba64298a
+  BmobSDK: c896d4ff3986f2b4fc8406fb2b801230f7419878
+  Bugtags: cff5f312f214af51b2f4fcdd65258d1874a0fd2e
+  ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
+  Charts: f54267bb3f0f0e74520c6f248517cf5074dfd6fc
+  PDTSimpleCalendar: d1c03387678422715dc021aa1a85d70f4d1014f2
+  QRCodeReader.swift: 6aa05e4b9123f5bbbe1e7f1d5df28d590cc56775
+  Spring: 3f02b5dc3308572ef177b3cad0fa7bbc4b0706f7
+  SwiftOverlays: 6a47bab3ed2784c378f07b275269f9e8231526e6
+  SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
+  TextFieldEffects: a1a78efeb93b65c611ad287b28a068c9a4a5f5b4
+
+PODFILE CHECKSUM: fe1b937517daf9bffbbe6c65d9148e0b0c408f5e
+
+COCOAPODS: 1.0.0.beta.4

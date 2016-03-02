@@ -1,0 +1,34 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, '8.0'
+# Uncomment this line if you're using Swift
+# use_frameworks!
+
+platform :ios, '8.0'
+use_frameworks!
+
+
+pod 'Alamofire'
+pod 'SwiftyJSON'
+pod 'BmobSDK'
+pod 'SwiftOverlays'
+pod 'QRCodeReader.swift'
+pod 'Bugtags'
+pod 'PDTSimpleCalendar'
+pod 'ChameleonFramework/Swift'
+pod 'TextFieldEffects'
+pod 'Spring', :git => 'https://github.com/MengTo/Spring.git', :branch => 'swift2'
+pod 'Charts'
+
+
+target 'WOLFMobileTools' do
+
+end
+
+target 'WOLFMobileToolsTests' do
+
+end
+
+target 'WOLFMobileToolsUITests' do
+
+end
+
